@@ -5,7 +5,7 @@ pipeline {
         {
             environment
             {
-                DB_HOST = credentials("laravel-host")
+                DB_HOST = credentials("balman-host")
 
             }
 
